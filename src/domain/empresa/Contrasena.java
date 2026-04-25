@@ -15,4 +15,8 @@ public final class Contrasena {
         }
         this.contrasena = contrasena;
     }
+
+    public String value(){
+        return contrasena;
+    }
 }
