@@ -10,8 +10,8 @@ public final class Contrasena {
         else if (contrasena.length() < 8){
             throw new IllegalArgumentException("La contraseña debe tener al menos 8 caracteres");
         }
-        else if (!contrasena.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&*()]).+$")){
-            throw new IllegalArgumentException("La contraseña debe contener al menos una letra mayúscula, una letra minúscula, un numero y un caracter especial (!@#$%^&*())");
+        else if (!contrasena.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&*().-]).+$")){
+            throw new IllegalArgumentException("La contraseña debe contener al menos una letra mayúscula, una letra minúscula, un numero y un caracter especial (!@#$%^&*().-)");
         }
         this.contrasena = contrasena;
     }
