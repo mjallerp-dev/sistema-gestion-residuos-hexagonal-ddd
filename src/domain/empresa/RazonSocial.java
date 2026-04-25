@@ -1,6 +1,6 @@
 package domain.empresa;
 
-public class RazonSocial {
+public final class RazonSocial {
     private final String nombre;
 
     public RazonSocial (String nombre){

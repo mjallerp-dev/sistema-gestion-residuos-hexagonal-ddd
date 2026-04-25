@@ -1,6 +1,6 @@
 package domain.empresa;
 
-public class Nit {
+public final class Nit {
     private final String nit;
 
     public Nit (String nit){
