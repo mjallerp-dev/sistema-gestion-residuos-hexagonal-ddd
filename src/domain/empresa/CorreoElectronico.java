@@ -12,4 +12,8 @@ public final class CorreoElectronico {
         }
         this.email = email;
     }
+
+    public String value(){
+        return email;
+    }
 }
