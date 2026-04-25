@@ -12,4 +12,8 @@ public class Nit {
         }
         this.nit = nit;
     }
+
+    public String value(){
+        return nit;
+    }
 }
